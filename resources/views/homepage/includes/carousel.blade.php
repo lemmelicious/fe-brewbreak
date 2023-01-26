@@ -1,5 +1,44 @@
 <div class="owl-carousel owl-theme">
 
+                        <!-- Announcement 1 -->
+                                 @foreach($sliders as $SliderItem)
+                                <div class="owl-carousel-info-wrap item ">
+                                    <img src="{{ asset($SliderItem->image)}}" class="owl-carousel-image " alt="">
+                                    <span class="text-wrap text-info fs-4">
+                                    {{$SliderItem->title}}<br><br><br></span>
+                                </div>
+                                @endforeach
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{-- <div class="owl-carousel owl-theme">
+
                                 <!-- Announcement 1 -->
                                 <div class="owl-carousel-info-wrap item">
                                     <img src="images/items/special 01.png" class="owl-carousel-image img-fluid" alt="">
@@ -72,4 +111,4 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> --}}

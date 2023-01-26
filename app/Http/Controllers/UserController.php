@@ -103,6 +103,7 @@ class UserController extends Controller
 
         return redirect('/users/update/' . $user->id);
     }
+    
 
     /**
      * Remove the specified resource from storage.
