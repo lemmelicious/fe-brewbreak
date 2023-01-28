@@ -20,7 +20,7 @@
                                     <h5 class="mb-2">
                                         <a>Nutella Cheesecake</a>
                                     </h5>
-                                    <p class="mb-0">"Indulge in the rich, creamy flavor of Nutella cheesecake blended with iced coffee. Perfect for a sweet pick-me-up or a satisfying dessert drink. Available now."</p>
+                                    <p class="mb-0">"Indulge in rich, creamy flavor of Nutella cheesecake blended in iced coffee. Available now."</p>
 
                                     <h2 class="badge mb-0">
                                         <a href="https://www.foodpanda.ph/restaurant/s6yr/brew-break-sm-city-butuan">Buy now</a>
@@ -41,7 +41,7 @@
                                     <h5 class="mb-2">
                                         <a>Okinawa Cheesecake</a>
                                     </h5>
-                                    <p class="mb-0">"Indulge in the delicious blend of Okinawa cheesecake and iced coffee at our café. Perfect for a sweet pick-me-up or a satisfying dessert. Try it today!"</p>
+                                    <p class="mb-0">"Indulge in the delicious blend of Okinawa cheesecake perfect for a satisfying dessert. Try it today!"</p>
 
                                     <h2 class="badge mb-0">
                                         <a href="https://www.foodpanda.ph/restaurant/s6yr/brew-break-sm-city-butuan">Buy now</a>
@@ -62,7 +62,7 @@
                                     <h5 class="mb-2">
                                         <a>Caramel Cheesecake</a>
                                     </h5>
-                                    <p class="mb-0">"Indulge in the decadence of our Salted Caramel Cheesecake Iced Coffee, a perfect blend of rich creaminess and bold coffee flavor."</p>
+                                    <p class="mb-0">"Indulge in Salted Caramel Cheesecake Iced Coffee, a perfect blend of rich creaminess bold coffee flavor."</p>
 
                                     <h2 class="badge mb-0">
                                         <a href="https://www.foodpanda.ph/restaurant/s6yr/brew-break-sm-city-butuan">Buy now</a>
@@ -104,7 +104,7 @@
                                     <h5 class="mb-2">
                                         <a>Choco Cheesecake</a>
                                     </h5>
-                                    <p class="mb-0">"Experience the ultimate chocolate indulgence with our Choco Cheesecake Iced Coffee, a heavenly blend of rich chocolate and creamy cheesecake flavors."</p>
+                                    <p class="mb-0">"Experience the ultimate chocolate and indulge in heavenly blend of rich chocolate and creamy cheesecake flavors."</p>
 
                                     <h2 class="badge mb-0">
                                         <a href="https://www.foodpanda.ph/restaurant/s6yr/brew-break-sm-city-butuan">Buy now</a>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        
                         <!-- Product 06 -->
                         <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-full">
@@ -125,7 +125,7 @@
                                     <h5 class="mb-2">
                                         <a>Matcha Cheesecake</a>
                                     </h5>
-                                    <p class="mb-0">"Refresh and rejuvenate with our Matcha Cheesecake Iced Coffee, a perfect balance of antioxidant-rich matcha and creamy cheesecake flavors."</p>
+                                    <p class="mb-0">"Refresh and rejuvenate with our Matcha Cheesecake Iced Coffee, perfect balance of antioxidant-rich matcha."</p>
 
                                     <h2 class="badge mb-0">
                                         <a href="https://www.foodpanda.ph/restaurant/s6yr/brew-break-sm-city-butuan">Buy now</a>
@@ -146,7 +146,7 @@
                                     <h5 class="mb-2">
                                         <a>Special Ube</a>
                                     </h5>
-                                    <p class="mb-0">"Our new Ube flavor coffee drinks are a delicious blend of Philippine specialties and traditional coffee flavors, providing a unique and delightful taste experience."</p>
+                                    <p class="mb-0">"Our new Ube flavor coffee drinks are a delicious blend of Philippine specialties and traditional coffee flavors, providing delightful taste."</p>
 
                                     <h2 class="badge mb-0">
                                         <a href="https://www.foodpanda.ph/restaurant/s6yr/brew-break-sm-city-butuan">Buy now</a>
@@ -167,7 +167,7 @@
                                     <h5 class="mb-2">
                                         <a>Special Mocha</a>
                                     </h5>
-                                    <p class="mb-0">"Our new Mocha flavor coffee drinks are a classic and creamy combination of espresso and chocolate, providing a delicious and indulgent flavor experience."</p>
+                                    <p class="mb-0">"Our new Mocha flavor coffee drinks are a classic and creamy combination of espresso and chocolate, providing a indulgent flavor."</p>
 
                                     <h2 class="badge mb-0">
                                         <a href="https://www.foodpanda.ph/restaurant/s6yr/brew-break-sm-city-butuan">Buy now</a>
