@@ -56,6 +56,11 @@ Route::post('/users/update/{id}', [UserController::class, 'update'])
 Route::get('/users/delete/{id}', [UserController::class, 'delete'])
     ->middleware(['auth', 'verified']);   
 
+
+
+
+
+
     //
     Route::get('/sliders', [SliderController::class, 'index'])
     ->middleware(['auth', 'verified'])

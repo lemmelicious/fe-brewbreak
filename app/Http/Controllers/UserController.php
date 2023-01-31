@@ -61,6 +61,11 @@ class UserController extends Controller
         return redirect('/users');
     }
 
+
+
+
+
+
     /**
      * Display the specified resource.
      *
@@ -77,6 +82,12 @@ class UserController extends Controller
         ]);
 
     }
+    
+
+
+
+
+
     
 
     /**
@@ -105,6 +116,9 @@ class UserController extends Controller
     }
     
 
+
+
+
     /**
      * Remove the specified resource from storage.
      *
@@ -121,4 +135,9 @@ class UserController extends Controller
         // Redirect to the List of Users
         return redirect('/users');
     }
+
+
+
+
+
 }

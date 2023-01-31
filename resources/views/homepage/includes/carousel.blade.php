@@ -5,7 +5,7 @@
                                 <div class="owl-carousel-info-wrap item ">
                                     <img src="{{ asset($SliderItem->image)}}" class="owl-carousel-image " alt="">
                                     <span class="text-wrap text-info fs-4">
-                                    {{$SliderItem->title}}<br><br><br></span>
+                                    {{-- {{$SliderItem->title}}<br><br><br></span> --}}
                                 </div>
                                 @endforeach
 </div>
