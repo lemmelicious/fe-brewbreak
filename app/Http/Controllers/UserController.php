@@ -103,16 +103,18 @@ class UserController extends Controller
 
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255']
+            'email' => ['required', 'string', 'email', 'max:255'],
         ]);
 
         $user = User::find($id);
 
         $user->update($request->all());
 
-        session()->flash('status', 'Updated User Successfully!');
+        session()->flash('status', 'Updated Successfully!');
 
-        return redirect('/users/update/' . $user->id);
+        // return redirect('/users/update/' . $user->id);
+        return redirect('/users');
+        
     }
     
 
@@ -130,7 +132,8 @@ class UserController extends Controller
         $user = user::find($id);
         $user->delete();
         
-        session()->flash('status', 'Deleted Successfully! ');
+        // session()->flash('status', 'Deleted Successfully! ');
+        session()->flash('message', 'Deleted Successfully! ');
 
         // Redirect to the List of Users
         return redirect('/users');

@@ -75,13 +75,13 @@ https://templatemo.com/tm-584-pod-talk
                                 <a href="https://web.facebook.com/BrewBreakCoffee" class="social-icon-link bi-facebook"></a>
                             </li>
 
-                            <li class="social-icon-item">
+                            {{-- <li class="social-icon-item">
                                 <a href="https://www.instagram.com/lemmellicious/" class="social-icon-link bi-instagram"></a>
                             </li>
 
                             <li class="social-icon-item">
                                 <a href="https://twitter.com/home" class="social-icon-link bi-twitter"></a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>

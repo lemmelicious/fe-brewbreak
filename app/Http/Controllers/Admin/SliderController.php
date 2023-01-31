@@ -42,7 +42,11 @@ class SliderController extends Controller
             'status' => $validatedData['status'],
         ]);
         
-        return redirect('sliders')->with('message', 'Slider Added Successfully');
+        session()->flash('status', 'Successfully Created! ');
+
+        return redirect('sliders');
+        // ->with('message', 'Slider Added Successfully');
+
     }
 
     public function edit(Slider $slider)
@@ -78,7 +82,9 @@ class SliderController extends Controller
             'status' => $validatedData['status'],
         ]);
         
-        return redirect('sliders')->with('message', 'Slider Added Successfully');
+        session()->flash('status', 'Updated Successfully! ');
+        return redirect('sliders');
+        // ->with('message', 'Slider Added Successfully');
     }
 
     public function destroy(slider $slider)
@@ -89,7 +95,12 @@ class SliderController extends Controller
             File::delete($destination);
         }
         $slider->delete();
-        return redirect('sliders')->with('message', 'Deleted Successfully');
+
+        // session()->flash('status', 'Deleted Successfully! ');
+        session()->flash('message', 'Deleted Successfully! ');
+
+        return redirect('sliders');
+        // ->with('message', 'Deleted Successfully');
     }
         return redirect('sliders')->with('message', 'Something went wrong');
     }

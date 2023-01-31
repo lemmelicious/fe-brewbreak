@@ -6,13 +6,20 @@
     </x-slot>
 
     <div class="py-12">
-        @if( session('message') )
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 my-5">
+        {{-- @if( session('message') )
+            <div class="bg-white max-w-7xl mx-auto sm:px-6 lg:px-8 my-5">
                 <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-gray-800 dark:text-green-400" role="alert">
                     <span class="font-medium">Success alert!</span> {{ session('message') }} 
                 </div>
             </div>
-        @endif
+        @endif --}}
+
+        @if ( session('status'))
+                    <div class="bg-white text-center py-4 lg:px-4">
+                    <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                        <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">Annoucement</span>
+                        <span class="font-semibold mr-2 text-left flex-auto">{{ session('status')}}</span>
+                    @endif
 
 
 
